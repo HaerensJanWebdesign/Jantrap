@@ -79,6 +79,7 @@ button[type="submit"] {
     color: white;
 }
 
+
 .bg-dark {
     background-color: #494949;
     color: white;
@@ -87,49 +88,81 @@ button[type="submit"] {
     background-color: #C8C8C8;
     color: black;
 }
+.bg-red {
+   background-color: #FF291B;
+}
+.bg-green {
+    background-color: #0EE853;
+}
+.bg-yellow {
+    background-color: #EBAD10;
+}
+.bg-orange {
+    background-color: #FF8D21;
+}
+.bg-blue {
+    background-color: #4AA3FF;
+}
 
+.bd-dark {
+    border-color: #494949;
+}
+.bd-light {
+    border-color: #C8C8C8;
+}
+.bd-red {
+   border-color: #FF291B;
+}
+.bd-green {
+    background-color: #0EE853;
+}
+.bd-yellow {
+    background-color: #EBAD10;
+}
+.bd-orange {
+    background-color: #FF8D21;
+}
+.bd-blue {
+    background-color: #4AA3FF;
+}
+.bd-sm {
+    border: solid 1px;
+}
+.bd-md {
+    border: solid 3px;
+}
+.bd-lg {
+    border: solid 6px;
+}
 
-.grid-1 {
+.grid-1 { 
     display: grid;
-    grid-template-columns: 15% auto auto auto 15%;
-    grid-template-rows: 120px auto auto auto auto 200px;
-    grid-column-gap: 20px;
-    grid-row-gap: 20px;
-    justify-items: stretch;
-    align-items: stretch;
- }
-    .grid-1-h {
-        grid-row-start: 1;
-        grid-row-end: 2;
-
-        grid-column-start: 1;
-        grid-column-end: 6;
+    grid-template-areas: 
+      "header header header"
+      "nav content ads"
+      "nav footer footer";
+    grid-template-rows: 80px 1fr 70px;  
+    grid-template-columns: 20% 1fr 15%;
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+    height: 100vh;
+    margin: 0;
+}  
+  header, footer, article, nav, div {
+    padding: 1.2em;;
     }
-    .grid-1-f {
-        grid-row-start: 6;
-        grid-row-end: 7;
-
-        grid-column-start: 1;
-        grid-column-end: 6;
+  #pageHeader {
+    grid-area: header;
     }
-    .grid-1-side-l {
-        grid-row-start: 2;
-        grid-row-end: 6;
-
-        grid-column-start:1 ;
-        grid-column-end: 2;
+  #pageFooter {
+    grid-area: footer;
     }
-    .grid-1-side-r {
-        grid-row-start: 2;
-        grid-row-end: 6;
-
-        grid-column-start: 5;
-        grid-column-end: 6;
+  #mainContent { 
+    grid-area: content;      
     }
-    .grid-1-content {
-        grid-row-start:2 ;
-        grid-row-end: 6;
-
-        grid-column-start:2 ;
-        grid-column-end: 5;
+  #mainNav { 
+    grid-area: nav; 
     }
+  #siteAds { 
+    grid-area: ads; 
+    } 
