@@ -41,7 +41,13 @@ We have some classes to style the bordercolors :
 
 **Border size**
 
+We have some classes to style the bordersize : 
 
+-To style the bordersize :
+
+```
+.bd-sm .bd-md .bd-lg
+```
 
 **Rounded border**
 Add the class `.round `to add rounded borders
@@ -78,14 +84,20 @@ We used 3 different classes for text-alignment.
 
 ## Headercolors
 There are 6 different colors in this template.
-- ..* “header-dark” => color black use `class = “header-dark”`
-- ..* ”header-light” => color wit use `class = “header-light”`
-- ..* “header-red” => color red use `class = “header-red”`
-- ..* “header-blue” => color blue use `class = “header-blue”`
-- ..* “header-green” => color blue use `class = “header-green”`
-- ..* “header-gradient” => color gradient `class = “`
+-  “header-dark” => color black use `class = “header-dark”`
+-  ”header-light” => color wit use `class = “header-light”`
+-  “header-red” => color red use `class = “header-red”`
+-  “header-blue” => color blue use `class = “header-blue”`
+-  “header-green” => color blue use `class = “header-green”`
+-  “header-gradient” => color gradient `class = “`
 
 **Textcolors**
+We have some classes to style the textcolor :
+
+To style the textcolors use : 
+```
+.text-dark .text-light .text-red .text-blue .text-green .text-gradient
+```
 
 THE END :) 
 
