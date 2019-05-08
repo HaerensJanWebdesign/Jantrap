@@ -1,25 +1,47 @@
 https://haerensjanwebdesign.github.io/Jantrap/
 
-Hello my name is Jan part of the group Ilias en zijn  janetten
-
 **Buttons**
 
--  We’ve got 3 kinds of buttons:
+We’ve got 3 kinds of buttons:
  
- the normal borders are square but if you do a border-radius you will have a rounded border
+ - the normal borders are square but if you do a border-radius you will have a rounded border
 
-type="button”    border is  3px solid 
+- `type="button”`    border is  3px solid 
 
-type="submit”   border: 3px dotted with a border-radius: 6px
+- `type="submit”`   border: 3px dotted with a border-radius: 6px
 
-type=”reset”   border: 3px double with a border-radius: 15px;
-##Forms 
+- `type=”reset”`   border: 3px double with a border-radius: 15px;
+
+**Forms**
+
+We have some classes to style  the forms :
+
+- To style the width use : `.frm-xs-x .frm-sm-x .frm-md-x .frm-lg-x`
+- To style the height use: `.frm-sm-y .frm-md-y .frm-lg-y`
+- To style the border use : `.frm-bd-sm .frm-bd-md .frm-bd-lg`
 
 **Background color**
 
+We have some classes to style the backgroundcolor :
+
+- To style the backgroundcolor use : 
+```
+.bg-dark .bg-light .bg-red .bg-green .bg-yellow .bg-orange .bg-blue
+```
+
 **Border color**
 
+We have some classes to style the bordercolors : 
+
+- To style the bordercolors use : 
+
+```
+.bd-dark .bd-light .bd-red .bd-green .bd-yellow .bd-orange .bd-blue
+```
+
 **Border size**
+
+
 
 **Rounded border**
 Add the class `.round `to add rounded borders
@@ -61,9 +83,9 @@ There are 6 different colors in this template.
 ..* “header-red” => color red use `class = “header-red”`
 ..* “header-blue” => color blue use `class = “header-blue”`
 ..* “header-green” => color blue use `class = “header-green”`
-..* “header-gradient” => color gradient `class = “
+..* “header-gradient” => color gradient `class = “`
 
-Textcolors 
+**Textcolors**
 
 THE END :) 
 
