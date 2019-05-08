@@ -78,12 +78,12 @@ We used 3 different classes for text-alignment.
 
 ## Headercolors
 There are 6 different colors in this template.
-..* “header-dark” => color black use `class = “header-dark”`
-..* ”header-light” => color wit use `class = “header-light”`
-..* “header-red” => color red use `class = “header-red”`
-..* “header-blue” => color blue use `class = “header-blue”`
-..* “header-green” => color blue use `class = “header-green”`
-..* “header-gradient” => color gradient `class = “`
+- ..* “header-dark” => color black use `class = “header-dark”`
+- ..* ”header-light” => color wit use `class = “header-light”`
+- ..* “header-red” => color red use `class = “header-red”`
+- ..* “header-blue” => color blue use `class = “header-blue”`
+- ..* “header-green” => color blue use `class = “header-green”`
+- ..* “header-gradient” => color gradient `class = “`
 
 **Textcolors**
 
