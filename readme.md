@@ -46,13 +46,11 @@ Use ID’s to asign the content to the grid :
 
 **Text-alignment**
 
-**Text-alignment**
-
 We used 3 different classes for text-alignment.
 
-1 The header text is centered => `class = ” text center”`
-2 The content text is aligned left =>  `class = ”text left”`
-3 The nav text is aligned right => `class = ”text right”`
+- The header text is centered => `class = ” text center”`
+- The content text is aligned left =>  `class = ”text left”`
+- The nav text is aligned right => `class = ”text right”`
  
 
 
