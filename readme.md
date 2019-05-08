@@ -6,7 +6,8 @@ Hello my name is Jan part of the group Ilias en zijn  janetten
 
 -  We’ve got 3 kinds of buttons:
  
- the normal borders are square but if you do a border-radius
+ the normal borders are square but if you do a border-radius you will have a rounded border
+
 type="button”    border is  3px solid 
 
 type="submit”   border: 3px dotted with a border-radius: 6px
@@ -28,16 +29,16 @@ We have a simple grid in the framework.
 Add the class `.grid-1`
 This adds a grid with the templates :
 
-```“header header header”
+`“header header header”
 “nav content ads”
-“nav footer footer”```
+“nav footer footer”`
 
 Use ID’s to asign the content to the grid : 
-```#header 
+`#header 
 #footer 
 #content
 #nav
-#ads```
+#ads`
 
 **Text-alignment**
 We used 3 different classes for text-alignment.
@@ -52,10 +53,12 @@ There are 6 different colors in this template.
 ..* “header-red” => color red use `class = “header-red”`
 ..* “header-blue” => color blue use `class = “header-blue”`
 ..* “header-green” => color blue use `class = “header-green”`
-..* “header-gradient” =
+..* “header-gradient” => color gradient `class = “
 
 Textcolors 
 
 THE END :) 
+
+
 
 
