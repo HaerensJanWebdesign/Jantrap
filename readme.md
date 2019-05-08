@@ -45,10 +45,13 @@ Use ID’s to asign the content to the grid :
 ```
 
 **Text-alignment**
+
 We used 3 different classes for text-alignment.
-..*The header text is centered =>`class=” text center”`
-..*The content text is aligned left =>`class=”text left” `
-..*The nav text is aligned right =>`class=”text right” `
+
+-The header text is centered =>class=” text center” 
+-The content text is aligned left =>class=”text left” 
+-The nav text is aligned right =>class=”text right” 
+
 
 ## Headercolors
 There are 6 different colors in this template.
