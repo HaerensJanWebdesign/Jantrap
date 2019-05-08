@@ -29,16 +29,20 @@ We have a simple grid in the framework.
 Add the class `.grid-1`
 This adds a grid with the templates :
 
-`“header header header”
+```
+“header header header”
 “nav content ads”
-“nav footer footer”`
+“nav footer footer”
+```
 
 Use ID’s to asign the content to the grid : 
-`#header 
+```
+#header 
 #footer 
 #content
 #nav
-#ads`
+#ads
+```
 
 **Text-alignment**
 We used 3 different classes for text-alignment.
