@@ -2,7 +2,7 @@ https://haerensjanwebdesign.github.io/Jantrap/
 
 Hello my name is Jan part of the group Ilias en zijn  janetten
 
-##Buttons 
+**Buttons**
 
 -  We’ve got 3 kinds of buttons:
  
@@ -15,16 +15,16 @@ type="submit”   border: 3px dotted with a border-radius: 6px
 type=”reset”   border: 3px double with a border-radius: 15px;
 ##Forms 
 
-##Background color
+**Background color**
 
-##Border color
+**Border color**
 
-##Border size
+**Border size**
 
-##Rounded border
+**Rounded border**
 Add the class `.round `to add rounded borders
 
-##Simple grid
+**Simple grid**
 We have a simple grid in the framework.
 Add the class `.grid-1`
 This adds a grid with the templates :
